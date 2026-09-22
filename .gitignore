@@ -1,0 +1,26 @@
+# KiCad Lock Files
+*.lck
+*.kicad_sch.lck
+*.kicad_pcb.lck
+
+# KiCad Backups & Autosaves
+*-backups/
+_autosave-*
+*.bak
+*.bck
+*.fp-lib-table-bak
+*.sym-lib-table-bak
+
+# Caches & Local Configs
+fp-info-cache
+*.kicad_prl
+
+# Output / Production Files
+/plots/
+/gerbers/
+/output/
+/gbr/
+*.gbr
+*.drl
+*.pdf
+*.history/
