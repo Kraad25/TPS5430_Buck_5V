@@ -12,9 +12,9 @@
 		(comment 4 "Reference & Datasheets:")
 	)
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack"
+		(symbol "Barrel-Jack:694103107102"
 			(pin_names
-				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -22,7 +22,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.334 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,18 +31,8 @@
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
+			(property "Value" "694103107102"
+				(at 12.7 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -50,10 +40,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" ""
-				(at 1.27 -1.016 0)
+			(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-DC_694103107102"
+				(at 12.7 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -61,9 +52,22 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Description" "DC Barrel Jack"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/694103107102.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Power Jacks ED"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -74,7 +78,139 @@
 					)
 				)
 			)
-			(property "ki_keywords" "DC power barrel jack connector"
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20251209"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WR-DC"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "694103107102"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Center pin Ø (Value) (mm)" "1.3"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Plug OD (mm)" "3.5"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Type" "Right Angled"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "IR (A)" "3.0"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Working Voltage (V (DC))" "24"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "DC_POWER_JACKS_WR_DC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -85,7 +221,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "BarrelJack*"
+			(property "ki_fp_filters" "*WR-DC*694103107102*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -96,24 +232,37 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+			(symbol "694103107102_0_0"
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -4.445 -3.81)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+						(xy -3.175 2.54) (xy 1.27 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -3.81) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -121,34 +270,47 @@
 					)
 				)
 				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
+					(start -3.175 0)
+					(mid -4.4395 1.27)
+					(end -3.175 2.54)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -3.81)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 -1.27)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -0.508 -2.54) (xy 0.508 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -157,10 +319,94 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
+						(xy 1.27 3.175) (xy 1.27 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.175) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.635) (xy 2.54 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy -3.175 -3.81)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -168,11 +414,11 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_1_1"
+			(symbol "694103107102_1_0"
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -188,9 +434,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -198,6 +444,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1424,6 +1688,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 158.75 34.29)
@@ -1509,9 +1888,9 @@
 		)
 		(uuid "31da9d4e-a8eb-47ea-b737-e1254df91e43")
 	)
-	(text "Thus, I presume that the tabel has a typo. C6's Unit is pF and not uF"
+	(text "I presume that the tabel has a typo. C6's Unit is pF and not uF"
 		(exclude_from_sim no)
-		(at 55.88 120.904 0)
+		(at 53.086 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,10 +2009,22 @@
 		(uuid "112d3b94-cb31-4cbb-8d0f-f9282c8ccee5")
 	)
 	(junction
-		(at 31.75 60.96)
+		(at 25.4 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2409ae69-fee7-478e-a50c-a14b3b4ca4ed")
+		(uuid "14877e6c-da25-49ba-a3a4-be47c8f802e0")
+	)
+	(junction
+		(at 176.53 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c007406-804c-47c0-a370-2e22ed7938ab")
+	)
+	(junction
+		(at 138.43 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b082006-b4ff-434c-b280-081a39425dbd")
 	)
 	(junction
 		(at 110.49 48.26)
@@ -1683,6 +2074,18 @@
 		(color 0 0 0 0)
 		(uuid "ef34927c-fc91-4307-ade0-9bf139bfc32a")
 	)
+	(junction
+		(at 27.94 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f34a937a-ee1c-489f-80cc-25ec597a0796")
+	)
+	(junction
+		(at 31.75 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f841cfc4-9144-483c-9b7a-8c5841bfa8be")
+	)
 	(wire
 		(pts
 			(xy 135.89 48.26) (xy 135.89 50.8)
@@ -1705,13 +2108,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 49.53) (xy 179.07 49.53)
+			(xy 173.99 49.53) (xy 176.53 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c64a071-ef7c-466d-aa17-c9f7aebbc679")
+	)
+	(wire
+		(pts
+			(xy 27.94 59.69) (xy 27.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3717d7-4217-4fc6-b6c3-04ac64fea2db")
 	)
 	(wire
 		(pts
@@ -1752,6 +2165,16 @@
 			(type default)
 		)
 		(uuid "1b9bfaf3-0451-4e47-aaf3-652886114eb0")
+	)
+	(wire
+		(pts
+			(xy 173.99 46.99) (xy 176.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2f09af-67af-4767-a490-06ec6252b4cd")
 	)
 	(wire
 		(pts
@@ -1825,6 +2248,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 48.26) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebbbde4-7360-46d8-b269-bf09695febca")
+	)
+	(wire
+		(pts
 			(xy 27.94 49.53) (xy 27.94 45.72)
 		)
 		(stroke
@@ -1845,7 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 57.15) (xy 27.94 60.96)
+			(xy 27.94 57.15) (xy 27.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +2298,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 45.72) (xy 27.94 45.72)
+			(xy 17.78 45.72) (xy 25.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2002,6 +2435,16 @@
 			(type default)
 		)
 		(uuid "7ead6e40-e4c3-4086-b5b0-0af9b153976a")
+	)
+	(wire
+		(pts
+			(xy 31.75 62.23) (xy 31.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eca9b08-8e5d-4756-9167-2ad8e658a2a0")
 	)
 	(wire
 		(pts
@@ -2155,16 +2598,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 45.72) (xy 35.56 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a0d43d-d8d4-420f-bec5-b0e4946eedaa")
-	)
-	(wire
-		(pts
 			(xy 102.87 48.26) (xy 102.87 52.07)
 		)
 		(stroke
@@ -2185,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 48.26) (xy 149.86 48.26)
+			(xy 135.89 48.26) (xy 138.43 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2215,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 49.53) (xy 179.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f595a4-63e7-4ab6-b04f-a63287a75cc9")
+	)
+	(wire
+		(pts
 			(xy 82.55 69.85) (xy 82.55 50.8)
 		)
 		(stroke
@@ -2225,6 +2668,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 45.72) (xy 35.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24f8180-9d32-434d-b5ff-edaf423ebe1d")
+	)
+	(wire
+		(pts
 			(xy 35.56 60.96) (xy 35.56 57.15)
 		)
 		(stroke
@@ -2232,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "e93f0d6e-fc07-428e-ac53-565ab362cfd8")
+	)
+	(wire
+		(pts
+			(xy 176.53 46.99) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23f7666-abc9-4d8f-aea8-0d328cce45b4")
 	)
 	(image
 		(at 24.13 104.14)
@@ -3314,7 +3777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 			(at 214.63 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3389,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 78.74 46.6852 0)
 			(hide yes)
 			(show_name no)
@@ -3517,6 +3980,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 27.94 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "206a3ca9-b0b3-4ac3-bb1f-f9c259b001f0")
+		(property "Reference" "#FLG03"
+			(at 26.035 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 62.738 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 27.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9f69a03-9684-48a9-b8a8-bac042763d27")
+		)
+		(instances
+			(project "TPS5430_Buck_5V"
+				(path "/b7bc1143-13a1-463b-9ca0-5211432806d9"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 46.99 53.34 0)
 		(mirror y)
@@ -3550,7 +4091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.768 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -4037,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -4119,7 +4660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.768 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +4739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 166.37 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4436,7 +4977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4479,6 +5020,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bce9f9e-c98b-4348-919f-b7c7e05cbf96")
+		(property "Reference" "#FLG01"
+			(at 25.4 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7b67208-8f31-47ec-bd5f-61dc4f91f965")
+		)
+		(instances
+			(project "TPS5430_Buck_5V"
+				(path "/b7bc1143-13a1-463b-9ca0-5211432806d9"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 214.63 82.55 0)
 		(unit 1)
@@ -4512,7 +5131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 			(at 214.63 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +5207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 134.112 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +5289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4719,6 +5338,225 @@
 		)
 	)
 	(symbol
+		(lib_id "Barrel-Jack:694103107102")
+		(at 167.64 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7628f78-1496-49a1-bd24-21c9b72563f8")
+		(property "Reference" "J1"
+			(at 166.6875 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "694103107102"
+			(at 180.34 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_SMD_Wurth:J_Wurth_WR-DC_694103107102"
+			(at 180.34 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/694103107102.pdf?ki"
+			(at 180.34 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Power Jacks ED"
+			(at 167.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 180.34 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20251209"
+			(at 180.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WR-DC"
+			(at 180.34 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "694103107102"
+			(at 180.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 180.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Center pin Ø (Value) (mm)" "1.3"
+			(at 180.34 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Plug OD (mm)" "3.5"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "Right Angled"
+			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IR (A)" "3.0"
+			(at 180.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Working Voltage (V (DC))" "24"
+			(at 180.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "10d5d08c-6c2b-4ac0-a48a-95640af3ba5f")
+		)
+		(pin "1"
+			(uuid "db3d6a98-7a2e-4766-b16d-d755399adb13")
+		)
+		(pin "3"
+			(uuid "eed42c98-4e91-43f9-97c8-eecd6bb174b4")
+		)
+		(instances
+			(project "TPS5430_Buck_5V"
+				(path "/b7bc1143-13a1-463b-9ca0-5211432806d9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 53.34 0)
 		(mirror x)
@@ -4752,7 +5590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.5252 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4834,7 +5672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 134.112 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -4884,7 +5722,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 60.96 0)
+		(at 31.75 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4895,7 +5733,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb9f90c3-fd5b-4996-ae70-2fc71b8c816a")
 		(property "Reference" "#PWR02"
-			(at 31.75 67.31 0)
+			(at 31.75 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +5744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 66.04 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4917,7 +5755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 60.96 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4928,7 +5766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 60.96 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4939,7 +5777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 60.96 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4995,7 +5833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
 			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5071,7 +5909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5153,7 +5991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 28.9052 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5196,6 +6034,84 @@
 			(project "TPS5430_Buck_5V"
 				(path "/b7bc1143-13a1-463b-9ca0-5211432806d9"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 138.43 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce2bcce7-cd46-473a-800f-2dadb44456fb")
+		(property "Reference" "#FLG02"
+			(at 138.43 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 138.43 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 138.43 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8530d142-b919-4c01-b7d7-cbca092a979d")
+		)
+		(instances
+			(project "TPS5430_Buck_5V"
+				(path "/b7bc1143-13a1-463b-9ca0-5211432806d9"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5312,7 +6228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 95.25 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5355,86 +6271,6 @@
 			(project "TPS5430_Buck_5V"
 				(path "/b7bc1143-13a1-463b-9ca0-5211432806d9"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 166.37 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da860b25-dc36-4858-bb3d-a79321f0386a")
-		(property "Reference" "J1"
-			(at 166.37 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 166.37 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 48.006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 48.006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 166.37 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b4f8e50d-a606-45c8-bad0-91652fbe22d1")
-		)
-		(pin "1"
-			(uuid "d4e48548-0555-4afd-82c6-b423eab1c406")
-		)
-		(instances
-			(project "TPS5430_Buck_5V"
-				(path "/b7bc1143-13a1-463b-9ca0-5211432806d9"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5553,7 +6389,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.8852 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5714,7 +6550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 134.112 74.93 90)
 			(hide yes)
 			(show_name no)

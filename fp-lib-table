@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Connector_SMD_Wurth") (type "KiCad") (uri "${KIPRJMOD}/lib/Barrel-Jack/footprints/Connector_SMD_Wurth.pretty") (options "") (descr ""))
+)
