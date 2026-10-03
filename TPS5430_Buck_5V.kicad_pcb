@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -742,11 +741,10 @@
 		(property "Value" "15uH"
 			(at 0.02 -2.35 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "4f05fa8b-c8cc-44c9-b702-ebbd197dae1a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3709,6 +3707,92 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "dbc63ce1-22ad-42a9-aac7-b4ce8c708e8b")
+	)
+	(gr_text "INPUT"
+		(at 105.75 82.44 0)
+		(layer "F.SilkS")
+		(uuid "df0496cf-b2dc-4159-a913-e4f9fc44aeaf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OUTPUT"
+		(at 130.6 85.04 0)
+		(layer "F.SilkS")
+		(uuid "0039400e-1f6b-4b76-9e0f-150568be38c8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 134.68 87.46 90)
+		(layer "F.SilkS")
+		(uuid "88a942ce-6dcf-478a-8b80-33a93f1d4048")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 134.71 89.78 90)
+		(layer "F.SilkS")
+		(uuid "98c33209-0fc4-404c-845b-af55c478c901")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Buck Convertor (12V to 5V 3A)"
+		(at 126.54 78.94 0)
+		(layer "B.SilkS")
+		(uuid "2ec7d85e-27ec-4a7d-afec-60f367c6f8bb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "4/10/26"
+		(at 109.89 97.55 0)
+		(layer "B.SilkS")
+		(uuid "d975ad8f-a20d-4d91-80e2-9b5a13a5490f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "V0.0.0"
+		(at 118.3 80.51 0)
+		(layer "B.SilkS")
+		(uuid "b8deab90-7365-44e6-b64f-1303a22e48ca")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(dimension
 		(type orthogonal)
